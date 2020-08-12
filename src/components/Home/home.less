@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+
+  .title {
+    background-image: url("../../images/hero-image.png");
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    h2 {
+      z-index: 100;
+      font-size: 50px;
+      color: white;
+      position: relative;
+      line-height: 486px;
+      text-align: center;
+    }
+
+    &:after {
+      content: "";
+      background-color: #3c3b3b;
+      opacity: 0.8;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: block;
+      top: 0;
+    }
+  }
+
+  .func {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #cccccc;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .single-func {
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}
