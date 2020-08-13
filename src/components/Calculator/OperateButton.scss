@@ -16,6 +16,13 @@
     color: black;
   }
 
+  &:nth-last-child(2) {
+    background-color: #ffbefe;
+  }
+  &:nth-last-child(1) {
+    background-color: #ff8081;
+  }
+
   &:hover {
     background-color: #cb9b40;
   }
